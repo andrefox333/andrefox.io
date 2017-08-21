@@ -1,0 +1,54 @@
+.highcharts-yaxis-labels span {
+  font-family: "Source Sans Pro", "Helvetica Neue" !important;
+  font-weight: 500;
+  font-size: 18px !important;
+  color: #3a3a3a !important;
+}
+
+.highcharts-xaxis-labels span {
+  font-family: "Source Sans Pro", "Helvetica Neue" !important;
+  font-size: 14px !important;
+  color: #969696 !important;
+}
+
+.chart-total-container {
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  display: inline-block;
+  padding: 15px;
+  width: 48%;
+}
+
+.chart-type-label {
+  color: #969696;
+  display: inline;
+  padding-left: 6px;
+}
+
+.icon-primary {
+  border-radius: 2px;
+  width: 9px;
+  height: 9px;
+  background-color: #ff751a;
+  display: inline-block;
+}
+
+.icon-secondary {
+  border-radius: 2px;
+  width: 9px;
+  height: 9px;
+  background-color: #969696;
+  display: inline-block;
+}
+
+.value {
+  font-size: 21px;
+}
+
+.chart-total-container.primary {
+  margin-left: 10px;
+}
+.chart-total-container.secondary {
+  float: right;
+  margin-right: 10px;
+}

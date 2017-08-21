@@ -1,0 +1,151 @@
+.date-selector-container {
+  position: relative;
+  display: inline-block;
+  float: right;
+}
+
+.dropdown.show .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  right: 0;
+  left: auto;
+  width: 280px;
+  z-index: 301;
+}
+.dropdown-menu li:first-child {
+  margin-top: 12px;
+}
+
+.dropdown-menu li {
+  background-color: #e8e8e8;
+  margin: 0 17px 9px 17px;
+}
+.dropdown-menu  a {
+  font-weight: normal;
+  padding: 6px 15px 6px 8px;
+}
+
+.dropdown-menu.active a {
+  color: #fff;
+  background-color: #575757;
+}
+
+.transition-container {
+  height: 336px !important;
+}
+
+/* When we are on custom date or compare date mode,
+   * we're going to remove the following styles and rely on the other overlay's styles */
+.date-selector-container.custom-date .dropdown-menu,
+.date-selector-container.compare-dates .dropdown-menu {
+  box-shadow: none;
+  border: none;
+  background: transparent;
+}
+
+.date-picker-container {
+  background: #fff;
+  box-shadow: 2px 2px 3px 0 rgba(25, 25, 25, 0.08);
+  border: 1px solid #d1d1d1;
+  height: 378px;
+  position: absolute;
+  right: 10px;
+  top: 39px;
+  width: 937px;
+  z-index: 300;
+}
+
+.date-picker-input-group {
+  margin-top: 185px;
+  margin-left: 16px;
+  text-align: left;
+}
+.date-picker-input-group  label {
+  display: block;
+  color: #969696;
+  font-weight: 400;
+}
+
+.pick-date-container {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* React Date Overrides */
+.CalendarDay--highlighted-calendar {
+  color: #fff;
+  background: #747474;
+}
+
+.CalendarDay--selected {
+  border-color: #2c76e1;
+  background: #2c76e1;
+}
+
+/* The actual date picker element */
+.SingleDatePicker .SingleDatePicker__picker {
+  left: -636px !important;
+  top: -192px;
+}
+
+.SingleDatePicker .DateInput--with-caret::before,
+.SingleDatePicker .DateInput--with-caret::after {
+  display: none;
+}
+
+.SingleDatePickerInput .DateInput {
+  font-size: 16px;
+  line-height: 16px;
+  padding: 6px;
+  width: 125px;
+}
+
+.SingleDatePickerInput .DateInput.DateInput--with-caret {
+  border-color: #2c76e1;
+}
+
+/* Container for the compare date inputs and it's overrides */
+.compare-date-container {
+  display: inline-block;
+}
+.compare-date-container .CalendarDay--highlighted-calendar {
+  color: #fff;
+  background: #2c76e1;
+}
+
+.compare-date-container .CalendarDay--selected {
+  background: #747474;
+  border-color: #747474;
+}
+
+.compare-date-container .DateInput.DateInput--with-caret {
+  border-color: #747474;
+}
+
+.compare-date-container .SingleDatePicker__picker {
+  left: -773px !important;
+  top: -192px;
+}
+
+/* Remove the ? info icon on the bottom right of the calendar */
+.DayPickerKeyboardShortcuts__show {
+  display: none;
+}
+
+/* Container for the action buttons APPLY and CANCEL */
+.action-btn-container {
+  text-align: left;
+  margin-left: 16px;
+  margin-top: 69px;
+}
+.action-btn-container button:first-child {
+  margin-right: 9px;
+}
+
+.date-selector-container.custom-date div.date-picker-container div.date-picker-input-group div.pick-date-container .CalendarDay--highlighted-calendar {
+  border-color: #e4e7e7;
+  background: transparent;
+  color: #cacccd;
+}

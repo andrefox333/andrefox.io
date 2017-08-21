@@ -1,0 +1,134 @@
+.container {
+  min-width: 916px;
+}
+/* top-selection boxes */
+.top-selection-boxes {
+  margin-left: 30px;
+}
+/* selection container, the actual little boxes that you select */
+.selection {
+  position: relative;
+  width: 700px;
+  display: inline-block;
+  margin-left: -6px;
+}
+
+/* item box */
+.select-box {
+  text-align: center;
+  line-height: 35px;
+  display: inline-block;
+  margin: 3px 0 0 3px;
+  font-size: 14px;
+  box-sizing: border-box;
+  width: 26px;
+  height: 27px;
+  background-color: #e8e8e8;
+}
+.select-box:hover {
+  cursor: pointer;
+  background-color: #d1d1d1;
+}
+
+/* selected item box */
+.select-box.selected {
+  color: white;
+  opacity: 0.55;
+  background-color: #2c76e1;
+}
+
+/* selection box */
+.selection-border {
+  background: rgba(0, 162, 255, 0.4);
+  position: absolute;
+  z-index: 99;
+}
+
+.side-selection-boxes {
+  color: #969696;
+  display: inline-block;
+  float: left;
+  position: relative;
+  left: -9px;
+  top: 3px;
+}
+.side-selection-text {
+  text-align: right;
+  color: #969696;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+.side-selection-text div {
+  display: block;
+  height: 26px;
+  margin-bottom: 5px;
+}
+
+.side-selection-box,
+.top-selection-box {
+  background-color: #fff;
+  border: 1px solid #d1d1d1;
+  display: inline-block;
+}
+
+.side-selection-box.selected,
+.top-selection-box.selected {
+  background-color: #d1d1d1;
+  opacity: 1;
+}
+
+.side-selection-box {
+  margin: 0 0 5px 10px;
+}
+
+.item {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.hour-labels {
+  margin-left: 33px;
+}
+.hour-labels span {
+  color: #969696;
+  font-size: 14px;
+  margin-right: 60px;
+}
+.hour-labels span.twelve-am,
+.hour-labels span.twelve-pm {
+  margin-right: 54px;
+}
+.hour-labels span.three-am,
+.hour-labels span.six-am,
+.hour-labels span.nine-am,
+.hour-labels span.three-pm,
+.hour-labels span.six-pm,
+.hour-labels span.nine-pm {
+  margin-right: 61px;
+}
+.legend {
+  margin-top: 18px;
+}
+.legend div {
+  display: inline-block;
+}
+.legend .box {
+  height: 18px;
+  width: 18px;
+}
+.legend .legend-active .box {
+  opacity: 0.55;
+  background-color: #2c76e1;
+}
+.legend .legend-pause .box {
+  background-color: #e8e8e8;
+}
+.legend span {
+  margin-left: 7px;
+  margin-right: 30px;
+}
