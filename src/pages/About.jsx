@@ -34,22 +34,22 @@ class About extends Component {
           I truly believe in balancing the Left and Right Brain to becoming a
           Whole Brain Human Being.
         </p>
-
+        <hr />
         <h3>Engineering Skill Summary</h3>
         <h5>JavaScript Frameworks</h5>
         <p>
-          Modern JavaScript (ES6 and beyond), Node.js, React.js, Redux,
-          Express.js, Highcharts.js, Web Sockets (Socket.io), MEAN.js,
-          Angular.js, Mongo DB, Backbone.js, and Lodash.
+          Modern JavaScript (ES6 and beyond), Node, React, Redux, Express,
+          Highcharts.js, Web Sockets (Socket.io), MEAN, MERN, Angular, Mongo DB,
+          Backbone.js, and Lodash.
         </p>
         <h5>Testing Frameworks</h5>
-        <p>Karma, Jasmine.js, Mocha, Chai</p>
+        <p>Karma, Jasmine, Mocha, and Chai.</p>
 
         <h5>UI Frameworks</h5>
-        <p>Bootstrap.js V3/V4, and Ionic Framework</p>
+        <p>Bootstrap V3/V4, and Ionic Framework.</p>
 
         <h5>Tooling</h5>
-        <p>Git, Webpack, Babel, Gulp, and Grunt.</p>
+        <p>Prettier, ESLint, Git, Webpack, Babel, and Gulp.</p>
 
         <h3>Design</h3>
         <p>
@@ -60,10 +60,8 @@ class About extends Component {
         </p>
 
         <h3>Writing</h3>
-        <p>
-          Desktop Publishing, Technical Writing, Creative Writing, Editing, and
-          Proofing.
-        </p>
+        <i>Remnants (but still very handy) from my pre-programming days.</i>
+        <p>Technical Writing, Creative Writing, Editing, and Proofing.</p>
 
         <h3>Photography</h3>
         <p>
