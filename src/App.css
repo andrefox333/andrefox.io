@@ -1,28 +1,15 @@
-body {
+.hero {
   min-height: 100vh;
-}
-.header {
-  background-color: #222;
-  height: 100px;
-  padding: 20px;
-  color: white;
+  background: url('./man-website-layout-negative-space.jpg') no-repeat;
+  background-size: cover;
 }
 
-.component-examples {
-  margin-top: 30px;
-  margin-bottom: 100px;
-  padding: 20px;
+.hero-content {
+  text-align: left;
+  padding: 40vh 0 0 11vw;
+  color: rgb(255, 204, 0);
 }
 
-.component-container:not(:first-child) {
-  margin: 20px 0;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hero-content h1 {
+  font-weight: bold;
 }

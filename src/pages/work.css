@@ -1,0 +1,25 @@
+.header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.component-examples {
+  margin-top: 30px;
+  margin-bottom: 100px;
+  padding: 20px;
+}
+
+.component-container:not(:first-child) {
+  margin: 20px 0;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
